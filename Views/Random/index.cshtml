@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="~/css/styles.css">
+        <title>Hello!</title>
+    </head>
+    <body>
+        <h3>Random Passcode (Passcode: # @ViewBag.counter)</h3>
+        <div class="box">
+        <h1>@ViewBag.passcode</h1>
+        </div>
+        
+        <form action="/generate" >
+            <input type="submit" value="generate" class="button" id="generate">
+        </form>
+
+        <form action="/reset" >
+            <input type="submit" value="reset" class="button" id="reset">
+        </form>
+    </body>
+</html>

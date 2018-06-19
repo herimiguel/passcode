@@ -1,0 +1,10 @@
+.box{
+    border: 5px dashed lightblue;
+    width: 300px;
+    text-align: center;
+    color: red;
+}
+
+ h3{
+ color: blue;   
+}
